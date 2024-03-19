@@ -160,3 +160,14 @@ section{
 .gameButton.diamond{
     background-image: url(./images/diamond_block.png);
 }
+.play[disabled]{
+    opacity: 0.7;
+}
+
+.play[disabled]:active{
+    transform: none;
+}
+
+.gameButton .step {
+    box-sizing: rgba(24, 255, 0, 0.2) 0px 0px 4px 3px
+}
